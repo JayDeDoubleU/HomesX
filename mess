@@ -1,0 +1,77 @@
+##  Messages file for HomesX
+
+##  Each section has their own placeholders, that are only used for those messages.
+##  Do not try to use the placeholders in other messages, as it will either cause an
+##  error or alter the desired outpost.
+
+##  Use '&0' type color codes in all messages
+
+##  Plugin wide messages  ##
+never-played: '&cThat player has never played on this server'
+invalid-format: '&cThat is an invalid format'
+
+##  Cooldown messages ##
+##  The  %timer%  placeholder is used to show how much time in seconds is left in the players cooldown.
+home-cooldown:  '&cYou have to wait another &f%timer% &cseconds to do that'
+sethome-cooldown:  '&cYou have to wait another &f%timer% &cseconds to do that'
+
+##  Home command messages without placeholders  ##
+home-no-perm: '&cYou do not have permission to use /home'
+home-multi-no-perm: '&cYou do not have permission to choose different homes'
+home-other-no-perm: '&cYou do not have permission to teleport to other players homes'
+home-format: '&cUse the correct format, &f/home HOMENAME'
+home-other-format: '&cUser the correct format, &f/home -o PLAYER HOMENAME'
+home-invalid-name: '&cThat is not a valid home of yours'
+home-other-invalid-name: '&cThat is not a valid home for that player'
+home-none: '&cYou do not have a home set'
+
+##  Home command messages with placeholders ##
+##  The %delay% placeholder is used for the delay between command and action.
+home-tp-delay: '&eYou will be teleported in %delay% seconds'
+
+##  Sethome command messages without placeholders ##
+sethome-no-perm: '&cYou do not have permission to use &f/sethome'
+sethome-multi-no-perm: '&cYou do not have permission to set that many homes'
+sethome-other-no-perm: '&cYou do not have permission to set other players homes'
+sethome-format: '&cUse the correct format, &f/sethome HOMENAME'
+sethome-other-format: '&cUser the correct format, &f/sethome -o PLAYER HOMENAME'
+sethome-new: '&aYou just set a new home'
+sethome-single: '&eYour home is set to this location'
+
+##  Sethome command messages with placeholders  ##
+##  The %homeset% placeholder is used for the name of the home set being effected.
+sethome-change-multi: '&eYou just changed the location for your home set &f%homeset%'
+##  The %player% placeholder is used for the player that is being effected.
+sethome-other-new-setter: '&eYou set a new homeset named &f%homeset% &efor &f%target%'
+sethome-other-change-setter: '&eYou changed &f%homeset% &ehomeset for &f%target%'
+##  The %setter% placeholder is used for the player that is causing the effect.
+sethome-other-new-player: '&eYou had a new homeset named &f%homeset% &eby &f%setter%'
+sethome-other-change-player: '&eThe location of your homeset &f%homeset%&e, was changed by &f%setter%'
+
+##  Delhome command messages without placeholders ##
+delhome-noperm: '&cYou do not have permission to use /delhome'
+delhome-self-none: '&cYou do not have a home set named that'
+delhome-format: '&cUse correct format &f/delhome HOMENAME'
+delhome-other-format: '&cUse correct format &f/delhome -o PLAYER HOMENAME'
+delhome-other-noperm: '&cYou do not have permission to remove other players homes'
+
+##  Delhome command messages with placeholders  ##
+##  The %homeset% placeholder is used for the name of the home set being effected.
+delhome-self: '&eYou removed your home set named %homeset%'
+##  The %target% placeholder is used for the player that is being effected.
+delhome-other-setter: '&eYou just removed the homeset named %homeset% for %target%'
+delhome-other-none: '&f%target% &cdoes not have a home set named &f%homeset%'
+##  The %setter% placeholder is used for the player that is causing the effect.
+delhome-other-player: '&eYour home set named %homeset% was remove by %setter%'
+
+##  Homelist commands without placeholders  ##
+homelist-no-perm: '&cYou do not have permission to use /homelist'
+homelist-other-no-perm: '&cYou do not have permission to view others home sets'
+homelist-none: '&cYou do not have any homesets stored'
+
+##  Homelist commands with placeholders ##
+##  The %homelist% placeholder is used for the list of homes that is being requested.
+homelist: '&eYour homes : &f%homelist%'
+homelist-other: '&eHome list for %target% : &f%homelist%'
+##  The %target% placeholder is used for the player that was requested.
+homelist-other-none: '&c%target% does not have any homes set'
