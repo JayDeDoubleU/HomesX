@@ -1,0 +1,10 @@
+##  HomesX v1.0.0 by
+##  RunsWithShovels
+##  All times are in seconds
+cooldowns:
+  home: 30
+  sethome: 30
+
+teleport-delay: 3
+
+check-updates: 'true'
